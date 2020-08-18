@@ -1,6 +1,4 @@
-# Project name
-
-Forwardslash Development
+# Forwardslash Development
 
 ## Prerequisites
 
