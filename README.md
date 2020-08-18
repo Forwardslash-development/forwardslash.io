@@ -9,9 +9,9 @@ Before you begin, ensure you have met the following requirements:
 - You have installed the latest version of `<coding_language/dependency/requirement_1>`
 - You have read `<guide/link/documentation_related_to_project>`.
 
-## Installing <project_name>
+## Installing Forwardslash Development
 
-To install <project_name>, follow these steps:
+To install Forwardslash Development, follow these steps:
 
 Linux and macOS:
 
@@ -19,9 +19,9 @@ Linux and macOS:
 <install_command>
 ```
 
-## Using <project_name>
+## Using Forwardslash Development
 
-To use <project_name>, follow these steps:
+To use Forwardslash Development, follow these steps:
 
 ```
 <usage_example>
@@ -29,16 +29,16 @@ To use <project_name>, follow these steps:
 
 Add run commands and examples you think users will find useful. Provide an options reference for bonus points!
 
-## Contributing to <project_name>
+## Contributing to Forwardslash Development
 
 <!--- If your README is long or you have some specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
 
-To contribute to <project_name>, follow these steps:
+To contribute to Forwardslash Development, follow these steps:
 
 1. Fork this repository.
 2. Create a branch: `git checkout -b <branch_name>`.
 3. Make your changes and commit them: `git commit -m '<commit_message>'`
-4. Push to the original branch: `git push origin <project_name>/<location>`
+4. Push to the original branch: `git push origin Forwardslash Development/<location>`
 5. Create the pull request.
 
 Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
