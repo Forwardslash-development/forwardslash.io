@@ -17,7 +17,7 @@ const Header: React.FC<Props> = ({ siteTitle }) => (
 );
 
 Header.defaultProps = {
-  siteTitle: ``
+  siteTitle: `Modern Development`
 };
 
 export default Header;

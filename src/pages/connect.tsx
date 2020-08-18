@@ -3,16 +3,16 @@ import React from 'react';
 import Layout from 'components/Layout';
 import SEO from 'components/SEO';
 
-const ContactPage: React.FC = () => {
+const ConnectPage: React.FC = () => {
   return (
     <Layout>
-      <SEO title="Contact" />
+      <SEO title="Connect" />
       <div className="text-center">
-        <h1 className="text-2xl font-semibold">Contact</h1>
+        <h1 className="text-2xl font-semibold">How to Connect with Us</h1>
         <p className="mt-5">Welcome to Contact Page.</p>
       </div>
     </Layout>
   );
 };
 
-export default ContactPage;
+export default ConnectPage;
