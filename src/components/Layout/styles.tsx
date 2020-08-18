@@ -6,5 +6,5 @@ export const LayoutWrapper = styled.main`
 `;
 
 export const MainWrapper = styled.main`
-  ${tw`flex flex-col flex-1 w-full max-w-screen-sm mx-auto mt-5 p-5`};
+  ${tw``};
 `;

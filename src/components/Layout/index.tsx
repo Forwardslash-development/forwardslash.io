@@ -5,6 +5,7 @@ import { useSelector } from 'react-redux';
 import { uiSelector } from 'state/ui';
 
 import Header from 'components/Header';
+import Hero from 'components/Hero';
 import Footer from 'components/Footer';
 
 import 'assets/styles/global.css';
@@ -39,6 +40,7 @@ const Layout: React.FC<Props> = ({ children }) => {
       <GlobalStyles />
       <LayoutWrapper>
         <Header siteTitle={data.site.siteMetadata.title} />
+
         <MainWrapper>{children}</MainWrapper>
         <Footer />
       </LayoutWrapper>
