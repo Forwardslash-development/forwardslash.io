@@ -8,6 +8,7 @@ const IndexPage: React.FC = () => {
   return (
     <Layout>
       <SEO title="Forwardslash Development" />
+      <Hero />
       <div className="text-center">
         <h1 className="text-2xl font-semibold">Forwardslash Development Starter</h1>
         <p className="mt-5">

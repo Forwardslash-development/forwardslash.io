@@ -21,8 +21,17 @@ const Hero = ({ className }) => (
       const imageData = data.desktop.childImageSharp.fluid;
       return (
         <Styled.HeroWrapper>
-          <BackgroundImage Tag="section" className="" fluid={imageData} backgroundColor={`#040e18`}>
-            <h2>gatsby-background-image-es5</h2>
+          <BackgroundImage
+            fluid={imageData}
+            style={{
+              backgroundPosition: 'center',
+              backgroundRepeat: 'no-repeat',
+              backgroundSize: 'cover',
+              minHeight: '100vh',
+              width: '100%'
+            }}
+          >
+            <h2>Forwardslash Development</h2>
           </BackgroundImage>
         </Styled.HeroWrapper>
       );

@@ -40,7 +40,7 @@ const Layout: React.FC<Props> = ({ children }) => {
       <GlobalStyles />
       <LayoutWrapper>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <Hero />
+
         <MainWrapper>{children}</MainWrapper>
         <Footer />
       </LayoutWrapper>

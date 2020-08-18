@@ -3,7 +3,6 @@ import tw from 'tailwind.macro';
 
 export const HeroWrapper = styled.div`
   width: 100vw;
-  height: 100vh;
 `;
 
 export const Title = styled.h3`
