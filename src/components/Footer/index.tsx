@@ -9,10 +9,10 @@ const Footer: React.FC = () => (
   <Styled.Footer>
     <Container>
       <Styled.Links>
-        <Styled.Link href="/" rel="noreferrer noopener" target="_blank">
+        <Styled.Link href="https://github.com/Forwardslash-development/" rel="noreferrer noopener" target="_blank">
           GitHub
         </Styled.Link>
-        <Styled.Link href="https://github.com/Forwardslash-development/" rel="noreferrer noopener" target="_blank">
+        <Styled.Link href="https://twitter.com/development_io" rel="noreferrer noopener" target="_blank">
           Twitter
         </Styled.Link>
         <Styled.Link href="/connect">Connect</Styled.Link>

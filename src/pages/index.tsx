@@ -9,14 +9,26 @@ const IndexPage: React.FC = () => {
     <Layout>
       <SEO title="Forwardslash Development" />
       <Hero />
-      <div className="text-center">
-        <h1 className="text-2xl font-semibold">Modern Application Development</h1>
-        <p className="mt-5">
-          This is a starter for <span className="font-semibold">Gatsby</span> websites using{' '}
-          <span className="font-semibold">Redux-Toolkit</span>, <span className="font-semibold">Typescript</span>,{' '}
-          <span className="font-semibold">Styled Components</span>, <span className="font-semibold">Tailwind CSS</span>{' '}
-          & <span className="font-semibold">React Font Awesome</span>.
-        </p>
+      <div className="max-w-sm rounded overflow-hidden shadow-lg">
+        <img className="w-full" src="" alt="Sunset in the mountains" />
+        <div className="px-6 py-4">
+          <div className="font-bold text-xl mb-2">Services</div>
+          <p className="text-gray-700 text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis
+            eaque, exercitationem praesentium nihil.
+          </p>
+        </div>
+        <div className="px-6 py-4">
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+            #photography
+          </span>
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+            #travel
+          </span>
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+            #winter
+          </span>
+        </div>
       </div>
     </Layout>
   );

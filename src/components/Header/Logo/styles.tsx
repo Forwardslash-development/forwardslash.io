@@ -3,7 +3,7 @@ import tw from 'tailwind.macro';
 import { Link } from 'gatsby';
 
 export const Logo = styled(Link)`
-  ${tw`flex text-white hover:text-blue-200`};
+  ${tw`flex text-secondary-blue hover:text-white`};
 `;
 
 export const Text = styled.h1`
