@@ -28,10 +28,13 @@ const Hero = ({}) => (
             backgroundSize: 'cover',
             minHeight: '70vh',
             width: '100%',
-            zIndex: 0
+            zIndex: -1
           }}
         >
-          <Styled.Title>Forwardslash Development</Styled.Title>
+          <div className="grid grig-cols-1 bg-opacity-25 bg-primary-blue m-2 p-3 rounded-lg">
+            <Styled.Title>Modern Application Development</Styled.Title>
+            <Styled.SubTitle>Progressive web solutions</Styled.SubTitle>
+          </div>
         </BackgroundImage>
       );
     }}

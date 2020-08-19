@@ -10,7 +10,7 @@ const IndexPage: React.FC = () => {
       <SEO title="Forwardslash Development" />
       <Hero />
       <div className="text-center">
-        <h1 className="text-2xl font-semibold">Forwardslash Development Starter</h1>
+        <h1 className="text-2xl font-semibold">Modern Application Development</h1>
         <p className="mt-5">
           This is a starter for <span className="font-semibold">Gatsby</span> websites using{' '}
           <span className="font-semibold">Redux-Toolkit</span>, <span className="font-semibold">Typescript</span>,{' '}
