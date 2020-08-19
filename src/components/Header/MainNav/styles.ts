@@ -6,7 +6,7 @@ interface NavProps {
 }
 
 export const MainNavWrapper = styled.div`
-  ${tw`flex flex-row-reverse items-center`};
+  ${tw`flex flex-row-reverse items-center z-50`};
 `;
 
 export const Nav = styled.nav<NavProps>`

@@ -22,8 +22,8 @@ const navItems: NavItem[] = [
     slug: '/blog/'
   },
   {
-    title: 'Contact',
-    slug: '/contact/'
+    title: 'Connect',
+    slug: '/connect/'
   }
 ];
 

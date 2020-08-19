@@ -3,7 +3,7 @@ import { graphql, StaticQuery } from 'gatsby';
 import BackgroundImage from 'gatsby-background-image';
 import * as Styled from './styles';
 
-const Hero = ({ className }) => (
+const Hero = ({}) => (
   <StaticQuery
     query={graphql`
       query {
@@ -20,20 +20,19 @@ const Hero = ({ className }) => (
       // Set ImageData.
       const imageData = data.desktop.childImageSharp.fluid;
       return (
-        <Styled.HeroWrapper>
-          <BackgroundImage
-            fluid={imageData}
-            style={{
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat',
-              backgroundSize: 'cover',
-              minHeight: '100vh',
-              width: '100%'
-            }}
-          >
-            <h2>Forwardslash Development</h2>
-          </BackgroundImage>
-        </Styled.HeroWrapper>
+        <BackgroundImage
+          fluid={imageData}
+          style={{
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover',
+            minHeight: '70vh',
+            width: '100%',
+            zIndex: 0
+          }}
+        >
+          <Styled.Title>Forwardslash Development</Styled.Title>
+        </BackgroundImage>
       );
     }}
   />
