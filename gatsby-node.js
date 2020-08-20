@@ -1,5 +1,6 @@
 const path = require('path');
 
+/* Allows named imports */
 exports.onCreateWebpackConfig = ({ actions }) => {
   actions.setWebpackConfig({
     resolve: {
