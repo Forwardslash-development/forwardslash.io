@@ -8,8 +8,8 @@ const BlogPage: React.FC = () => {
     <Layout>
       <SEO title="Blog" />
       <div className="text-center">
-        <h1 className="text-2xl font-semibold">Blog</h1>
-        <p className="mt-5">Welcome to Blog Page.</p>
+        <h1 className="text-2xl font-semibold">Forwardslash Development Blog</h1>
+        <p className="mt-5">Welcome to the Forwardslash Development Blog.</p>
       </div>
     </Layout>
   );
