@@ -1,0 +1,21 @@
+{
+    "appName": "forwardslashio",
+    "roleName": "pinpointLambdaRolebf471aa1",
+    "cloudformationPolicyName": "cloudformationPolicybf471aa1",
+    "cloudWatchPolicyName": "cloudWatchPolicybf471aa1",
+    "pinpointPolicyName": "pinpointPolicybf471aa1",
+    "authPolicyName": "pinpoint_amplify_bf471aa1",
+    "unauthPolicyName": "pinpoint_amplify_bf471aa1",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
