@@ -29,9 +29,10 @@ const BlogCard = ({}) => (
         <Card>
           <Img fluid={imageData} />
           <Card.Body>
-            <Card.Title>/Development Blog</Card.Title>
+            <Card.Title>Blog</Card.Title>
             <Card.Text>
-              Forwardslash Development provides progressive web application and API development services.
+              The Forwardslash Development blog where we write, when we write about progressive web application
+              development.
             </Card.Text>
             <Link to="/blog">
               <Button variant="primary">Learn More</Button>

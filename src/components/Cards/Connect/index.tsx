@@ -29,12 +29,12 @@ const ConnectCard = ({}) => (
         <Card>
           <Img fluid={imageData} />
           <Card.Body>
-            <Card.Title>Connect with Forwardslash Development</Card.Title>
+            <Card.Title>Connect</Card.Title>
             <Card.Text>
-              How to connect with Connect with Forwardslash Development. Slack channel, Discord, Twitter, Github, and so
-              on.
+              How to connect with Connect with Forwardslash Development. Slack channel, Discord, Twitter, Github, Email,
+              contact form.
             </Card.Text>
-            <Link to="/blog">
+            <Link to="/connect">
               <Button variant="primary">Learn More</Button>
             </Link>
           </Card.Body>

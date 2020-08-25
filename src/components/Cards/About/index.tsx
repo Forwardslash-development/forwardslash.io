@@ -31,7 +31,8 @@ const AboutCard = ({}) => (
           <Card.Body>
             <Card.Title>About</Card.Title>
             <Card.Text>
-              Forwardslash Development provides progressive web application and API development services.
+              About Forwardslash Development, history, ethics, goals, all that stuff has been put to a task card and is
+              waiting to be moved to the "in progress" column. Stay tuned!
             </Card.Text>
             <Link to="/about">
               <Button variant="primary">Learn More</Button>
