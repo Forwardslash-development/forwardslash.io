@@ -31,7 +31,7 @@ const Hero = ({}) => (
             zIndex: -1
           }}
         >
-          <div className="grid grig-cols-1 bg-opacity-25 bg-primary-blue m-2 p-3 rounded-lg">
+          <div className="bg-primary-blue bg-opacity-25 m-10 p-3 rounded-lg shadow-2xl">
             <Styled.Title>Modern Application Development</Styled.Title>
             <Styled.SubTitle>Progressive web solutions</Styled.SubTitle>
           </div>

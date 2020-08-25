@@ -9,7 +9,11 @@ const ConnectPage: React.FC = () => {
       <SEO title="Connect" />
       <div className="text-center">
         <h1 className="text-2xl font-semibold">How to Connect with Us</h1>
-        <p className="mt-5">Welcome to Connect Page.</p>
+        <p className="mt-5">
+          Welcome to Connect Page. How to connect with Forwardslash Development. Slack channel, Discord, Twitter,
+          Github, Email, contact form... all that stuff has been put to a task card and is waiting to be moved to the
+          "in progress" column. Stay tuned!
+        </p>
       </div>
     </Layout>
   );
