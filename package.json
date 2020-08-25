@@ -4,7 +4,7 @@
   "license": "MIT",
   "private": true,
   "version": "0.1.0",
-  "description": "Forwardslash Development Gatsby Starter, using Typescript, Styled Components, Tailwindcss and Framer Motion.",
+  "description": "Forwardslash Development Gatsby Starter, using Typescript, Styled Components, and Tailwindcss.",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
