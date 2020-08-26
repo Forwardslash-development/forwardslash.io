@@ -6,8 +6,6 @@ import * as Styled from './styles';
 
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'assets/fontawesome/css/all.min.css';
 
 const ServicesCard = ({}) => (
   <StaticQuery
@@ -26,17 +24,16 @@ const ServicesCard = ({}) => (
       // Set ImageData.
       const imageData = data.desktop.childImageSharp.fluid;
       return (
-        <Card>
-          <Img fluid={imageData} />
-          <Card.Body>
-            <Card.Title>Services</Card.Title>
-            <Card.Text>
-              Forwardslash Development provides progressive web application and API development services.
-            </Card.Text>
-            <Link to="/services">
-              <Button variant="primary">Learn More</Button>
-            </Link>
-          </Card.Body>
+        <Card className="mt-2 mb-2 p-2">
+          <Link to="/services">
+            <Img fluid={imageData} />
+            <Card.Body>
+              <Card.Title>Services</Card.Title>
+              <Card.Text>
+                Forwardslash Development provides progressive web application and API development services.
+              </Card.Text>
+            </Card.Body>
+          </Link>
         </Card>
       );
     }}

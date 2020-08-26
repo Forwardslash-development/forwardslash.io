@@ -11,6 +11,9 @@ import 'assets/styles/global.css';
 import GlobalStyles from 'assets/styles/globalStyles';
 import * as Theme from 'assets/styles/theme';
 import { LayoutWrapper, MainWrapper } from './styles';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'assets/fontawesome/css/all.min.css';
+import '../../assets/styles/styles.css';
 
 interface Props {
   children: React.ReactNode;
