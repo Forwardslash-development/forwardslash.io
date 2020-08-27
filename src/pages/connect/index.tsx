@@ -14,6 +14,9 @@ const ConnectPage: React.FC = () => {
           Github, Email, contact form... all that stuff has been put to a task card and is waiting to be moved to the
           "in progress" column. Stay tuned!
         </p>
+        <ul>
+          <li>#forwardslash-develop.slack.com</li>
+        </ul>
       </div>
     </Layout>
   );

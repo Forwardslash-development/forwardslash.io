@@ -6,8 +6,6 @@ import * as Styled from './styles';
 
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'assets/fontawesome/css/all.min.css';
 
 const AboutCard = ({}) => (
   <StaticQuery
@@ -26,18 +24,17 @@ const AboutCard = ({}) => (
       // Set ImageData.
       const imageData = data.desktop.childImageSharp.fluid;
       return (
-        <Card>
-          <Img fluid={imageData} />
-          <Card.Body>
-            <Card.Title>About</Card.Title>
-            <Card.Text>
-              About Forwardslash Development, history, ethics, goals, all that stuff has been put to a task card and is
-              waiting to be moved to the "in progress" column. Stay tuned!
-            </Card.Text>
-            <Link to="/about">
-              <Button variant="primary">Learn More</Button>
-            </Link>
-          </Card.Body>
+        <Card className="mt-2 mb-2 p-2">
+          <Link to="/about">
+            <Img fluid={imageData} />
+            <Card.Body>
+              <Card.Title>About</Card.Title>
+              <Card.Text>
+                About Forwardslash Development, history, ethics, goals, all that stuff has been put to a task card and
+                is waiting to be moved to the "in progress" column. Stay tuned!
+              </Card.Text>
+            </Card.Body>
+          </Link>
         </Card>
       );
     }}

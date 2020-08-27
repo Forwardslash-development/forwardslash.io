@@ -6,8 +6,6 @@ import * as Styled from './styles';
 
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'assets/fontawesome/css/all.min.css';
 
 const BlogCard = ({}) => (
   <StaticQuery
@@ -26,18 +24,17 @@ const BlogCard = ({}) => (
       // Set ImageData.
       const imageData = data.desktop.childImageSharp.fluid;
       return (
-        <Card>
-          <Img fluid={imageData} />
-          <Card.Body>
-            <Card.Title>Blog</Card.Title>
-            <Card.Text>
-              The Forwardslash Development blog where we write, when we write about progressive web application
-              development.
-            </Card.Text>
-            <Link to="/blog">
-              <Button variant="primary">Learn More</Button>
-            </Link>
-          </Card.Body>
+        <Card className="mt-2 mb-2 p-2">
+          <Link to="/blog">
+            <Img fluid={imageData} />
+            <Card.Body>
+              <Card.Title>Blog</Card.Title>
+              <Card.Text>
+                The Forwardslash Development blog where we write, when we write about progressive web application
+                development.
+              </Card.Text>
+            </Card.Body>
+          </Link>
         </Card>
       );
     }}
