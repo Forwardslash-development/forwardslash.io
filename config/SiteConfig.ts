@@ -12,7 +12,7 @@ export default {
   author: 'jv', // Author for schemaORGJSONLD
   siteLogo: '/assets/logo.png', // Image for schemaORGJSONLD
 
-  // siteFBAppID: '123456789', // Facebook App ID - Optional
+  // siteFBAppID: 'fuck-facebook', // Facebook App ID - Optional
   // userTwitter: '@forwardslash-development.io', // Twitter Username - Optional
   // ogSiteName: 'fuck-facebook', // Facebook Site Name - Optional
   // ogLanguage: 'en_US', // Facebook Language

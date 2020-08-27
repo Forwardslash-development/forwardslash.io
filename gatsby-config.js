@@ -15,7 +15,6 @@ module.exports = {
         path: `${__dirname}/src/assets/images`
       }
     },
-
     {
       resolve: 'gatsby-transformer-remark',
       options: {
