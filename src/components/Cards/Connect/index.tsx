@@ -25,7 +25,7 @@ const ConnectCard = ({}) => (
       const imageData = data.desktop.childImageSharp.fluid;
       return (
         <Card className="mt-2 mb-2 p-2">
-          <Link to="/connect">
+          <Styled.CardLink to="/connect">
             <Img fluid={imageData} />
             <Card.Body>
               <Card.Title>Connect</Card.Title>
@@ -34,7 +34,7 @@ const ConnectCard = ({}) => (
                 Email, contact form.
               </Card.Text>
             </Card.Body>
-          </Link>
+          </Styled.CardLink>
         </Card>
       );
     }}

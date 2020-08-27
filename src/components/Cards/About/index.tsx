@@ -25,7 +25,7 @@ const AboutCard = ({}) => (
       const imageData = data.desktop.childImageSharp.fluid;
       return (
         <Card className="mt-2 mb-2 p-2">
-          <Link to="/about">
+          <Styled.CardLink to="/about">
             <Img fluid={imageData} />
             <Card.Body>
               <Card.Title>About</Card.Title>
@@ -34,7 +34,7 @@ const AboutCard = ({}) => (
                 is waiting to be moved to the "in progress" column. Stay tuned!
               </Card.Text>
             </Card.Body>
-          </Link>
+          </Styled.CardLink>
         </Card>
       );
     }}

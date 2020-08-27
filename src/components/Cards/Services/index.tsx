@@ -25,7 +25,7 @@ const ServicesCard = ({}) => (
       const imageData = data.desktop.childImageSharp.fluid;
       return (
         <Card className="mt-2 mb-2 p-2">
-          <Link to="/services">
+          <Styled.CardLink to="/services">
             <Img fluid={imageData} />
             <Card.Body>
               <Card.Title>Services</Card.Title>
@@ -33,7 +33,7 @@ const ServicesCard = ({}) => (
                 Forwardslash Development provides progressive web application and API development services.
               </Card.Text>
             </Card.Body>
-          </Link>
+          </Styled.CardLink>
         </Card>
       );
     }}
