@@ -9,9 +9,9 @@ import SEO from '../../components/SEO';
 import ConnectCard from 'components/Cards/Connect';
 import CardDeck from 'react-bootstrap/CardDeck';
 import CardGroup from 'react-bootstrap/CardGroup';
-import DomainCard from './Cards/Domain';
-import CloudCard from './Cards/Cloud';
-import MarketechCard from './Cards/Marketech';
+import DomainCard from '../../components/Cards/Services/ServiceCards/Domain';
+import CloudCard from '../../components/Cards/Services/ServiceCards/Cloud';
+import MarketechCard from '../../components/Cards/Services/ServiceCards/Marketech';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
