@@ -2,11 +2,13 @@ import React from 'react';
 
 import Layout from 'components/Layout';
 import SEO from 'components/SEO';
+import ConnectHero from 'components/Hero/ConnectHero';
 
 const ConnectPage: React.FC = () => {
   return (
     <Layout>
       <SEO title="Connect" />
+      <ConnectHero />
       <div className="text-center">
         <h1 className="text-2xl font-semibold">How to Connect with Us</h1>
         <p className="mt-5">
