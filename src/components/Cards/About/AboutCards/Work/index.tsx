@@ -27,7 +27,7 @@ const WorkCard = ({}) => (
           <Styled.CardLink to="/">
             <Card.Body className="text-center">
               <i className="fas fa-wrench text-7xl text-secondary-blue pt-2 pb-4"></i>
-              <Card.Title className="text-primary-blue">The Work of Forwardslash Development</Card.Title>
+              <Card.Title className="text-primary-blue">The Work</Card.Title>
               <Card.Text>The work we do, the way we do.</Card.Text>
             </Card.Body>
           </Styled.CardLink>
