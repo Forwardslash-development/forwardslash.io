@@ -21,7 +21,7 @@ const IndexPage: React.FC = ({}) => {
     <Layout>
       <SEO title="Forwardslash Development" />
       <Hero />
-      <CardGroup className="bg-black p-2">
+      <CardGroup className="p-2">
         <CardDeck className="">
           <AboutCard />
           <ServicesCard />

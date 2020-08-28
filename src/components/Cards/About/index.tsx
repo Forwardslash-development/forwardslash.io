@@ -13,7 +13,7 @@ const AboutCard = ({}) => (
       query {
         desktop: file(relativePath: { eq: "about-forwardslash.png" }) {
           childImageSharp {
-            fluid(quality: 90, maxWidth: 400) {
+            fluid(quality: 90, maxWidth: 200) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }
@@ -25,16 +25,16 @@ const AboutCard = ({}) => (
       const imageData = data.desktop.childImageSharp.fluid;
       return (
         <Card className="mt-2 mb-2 p-2">
-          <Link to="/about">
-            <Img fluid={imageData} />
-            <Card.Body>
-              <Card.Title>About</Card.Title>
+          <Styled.CardLink to="/about">
+            <Card.Body className="pt-4 text-center">
+              <i className="fas fa-info-circle text-7xl text-secondary-blue"></i>
+              <Card.Title className="pt-4 text-primary-blue">About</Card.Title>
               <Card.Text>
                 About Forwardslash Development, history, ethics, goals, all that stuff has been put to a task card and
                 is waiting to be moved to the "in progress" column. Stay tuned!
               </Card.Text>
             </Card.Body>
-          </Link>
+          </Styled.CardLink>
         </Card>
       );
     }}
