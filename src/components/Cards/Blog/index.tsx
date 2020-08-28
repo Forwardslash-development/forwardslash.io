@@ -26,9 +26,9 @@ const BlogCard = ({}) => (
       return (
         <Card className="mt-2 mb-2 p-2">
           <Styled.CardLink to="/blog">
-            <Img fluid={imageData} />
-            <Card.Body>
-              <Card.Title>Blog</Card.Title>
+            <Card.Body className="p-4 text-center">
+              <i className="fas fa-user-astronaut text-7xl text-secondary-blue"></i>
+              <Card.Title className="pt-4 text-primary-blue">Blog</Card.Title>
               <Card.Text>
                 The Forwardslash Development blog where we write, when we write about progressive web application
                 development.

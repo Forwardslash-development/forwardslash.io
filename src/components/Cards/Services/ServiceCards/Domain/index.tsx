@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import { Link } from 'gatsby';
 import { graphql, StaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
@@ -25,7 +26,7 @@ const DomainCard = ({}) => (
       return (
         <Card className="mt-2 mb-2 p-2">
           <Styled.CardLink to="/">
-            <Img fluid={imageData} />
+            <i className="fas fa-laptop-code text-7xl"></i>
             <Card.Body>
               <Card.Title>Domain Services</Card.Title>
               <Card.Subtitle>Forwardslash Development Domain Services</Card.Subtitle>

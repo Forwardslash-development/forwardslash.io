@@ -25,7 +25,7 @@ const CloudCard = ({}) => (
       return (
         <Card className="mt-2 mb-2 p-2">
           <Styled.CardLink to="/about">
-            <Img fluid={imageData} />
+            <i className="fas fa-cloud text-7xl"></i>
             <Card.Body>
               <Card.Title>Cloud Services</Card.Title>
               <Card.Subtitle>Forwardslash Development Cloud Services</Card.Subtitle>

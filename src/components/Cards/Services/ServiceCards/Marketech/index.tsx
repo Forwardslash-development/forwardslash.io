@@ -25,9 +25,9 @@ const MarketechCard = ({}) => (
       return (
         <Card className="mt-2 mb-2 p-2">
           <Styled.CardLink to="">
-            <Img fluid={imageData} />
+            <i className="fas fa-bullseye text-7xl"></i>
             <Card.Body>
-              <Card.Title>Marketech Services</Card.Title>
+              <Card.Title>Marketing Technology Services</Card.Title>
               <Card.Subtitle>Forwardslash Development Marketech Services.</Card.Subtitle>
               <Card.Text>
                 Marketech Services. Progressive web applications, Branding, Web Analytics, Content Mesh, writing on our

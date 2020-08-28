@@ -26,9 +26,9 @@ const ServicesCard = ({}) => (
       return (
         <Card className="mt-2 mb-2 p-2">
           <Styled.CardLink to="/services">
-            <Img fluid={imageData} />
-            <Card.Body>
-              <Card.Title>Services</Card.Title>
+            <Card.Body className="p-4 text-center">
+              <i className="fab fa-dev text-7xl text-secondary-blue"></i>
+              <Card.Title className="pt-4 text-primary-blue">Services</Card.Title>
               <Card.Text>
                 Forwardslash Development provides progressive web application and API development services.
               </Card.Text>
