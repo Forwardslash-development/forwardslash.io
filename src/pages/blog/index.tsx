@@ -2,11 +2,13 @@ import React from 'react';
 
 import Layout from 'components/Layout';
 import SEO from 'components/SEO';
+import BlogHero from 'components/Hero/BlogHero';
 
 const BlogPage: React.FC = () => {
   return (
     <Layout>
       <SEO title="Blog" />
+      <BlogHero />
       <div className="text-center">
         <h1 className="text-2xl font-semibold">Forwardslash Development Blog</h1>
         <p className="mt-5">
