@@ -3,23 +3,29 @@ import React from 'react';
 import Layout from 'components/Layout';
 import SEO from 'components/SEO';
 import ConnectHero from 'components/Hero/ConnectHero';
+import ConnectCard from 'components/Cards/Connect';
+import CardDeck from 'react-bootstrap/CardDeck';
+import CardGroup from 'react-bootstrap/CardGroup';
+import SlackCard from '../../components/Cards/Connect/ConnectCards/Slack';
+import TwitterCard from 'components/Cards/Connect/ConnectCards/Twitter';
+import GitHubCard from 'components/Cards/Connect/ConnectCards/GitHub';
+import DiscordCard from 'components/Cards/Connect/ConnectCards/Discord';
+import EmailCard from 'components/Cards/Connect/ConnectCards/Email';
 
 const ConnectPage: React.FC = () => {
   return (
     <Layout>
       <SEO title="Connect" />
       <ConnectHero />
-      <div className="text-center">
-        <h1 className="text-2xl font-semibold">How to Connect with Us</h1>
-        <p className="mt-5">
-          Welcome to Connect Page. How to connect with Forwardslash Development. Slack channel, Discord, Twitter,
-          Github, Email, contact form... all that stuff has been put to a task card and is waiting to be moved to the
-          "in progress" column. Stay tuned!
-        </p>
-        <ul>
-          <li>#forwardslash-develop.slack.com</li>
-        </ul>
-      </div>
+      <CardGroup className="m-4">
+        <CardDeck className="text-center">
+          <SlackCard />
+          <TwitterCard />
+          <GitHubCard />
+          <DiscordCard />
+          <EmailCard />
+        </CardDeck>
+      </CardGroup>
     </Layout>
   );
 };
