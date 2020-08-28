@@ -5,9 +5,8 @@ import Img from 'gatsby-image';
 import * as Styled from './styles';
 
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 
-const ConnectCard = ({}) => (
+const HistoryCard = ({}) => (
   <StaticQuery
     query={graphql`
       query {
@@ -25,13 +24,11 @@ const ConnectCard = ({}) => (
       const imageData = data.desktop.childImageSharp.fluid;
       return (
         <Card className="">
-          <Styled.CardLink to="/connect">
+          <Styled.CardLink to="/">
             <Card.Body className="text-center">
-              <i className="fas fa-network-wired text-7xl text-secondary-blue pt-2 pb-4"></i>
-              <Card.Title className="text-primary-blue">Connect with Us</Card.Title>
-              <Card.Text>
-                Connect with Forwardslash Development on: Slack, Discord, Twitter, Github, Email, contact form.
-              </Card.Text>
+              <i className="fas fa-monument text-7xl text-secondary-blue pt-2 pb-4"></i>
+              <Card.Title className="text-primary-blue">History of Forwardslash Development</Card.Title>
+              <Card.Text>The founding story, chapter one to modern day</Card.Text>
             </Card.Body>
           </Styled.CardLink>
         </Card>
@@ -40,4 +37,4 @@ const ConnectCard = ({}) => (
   />
 );
 
-export default ConnectCard;
+export default HistoryCard;
