@@ -23,11 +23,11 @@ const MarketechCard = ({}) => (
       // Set ImageData.
       const imageData = data.desktop.childImageSharp.fluid;
       return (
-        <Card className="mt-2 mb-2 p-2">
+        <Card className="">
           <Styled.CardLink to="">
-            <i className="fas fa-bullseye text-7xl"></i>
+            <i className="fas fa-bullseye text-7xl text-secondary-blue pt-4 pb-2"></i>
             <Card.Body>
-              <Card.Title>Marketing Technology Services</Card.Title>
+              <Card.Title className="text-primary-blue">Marketing Technology Services</Card.Title>
               <Card.Subtitle>Forwardslash Development Marketech Services.</Card.Subtitle>
               <Card.Text>
                 Marketech Services. Progressive web applications, Branding, Web Analytics, Content Mesh, writing on our

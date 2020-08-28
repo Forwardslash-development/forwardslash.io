@@ -23,11 +23,11 @@ const CloudCard = ({}) => (
       // Set ImageData.
       const imageData = data.desktop.childImageSharp.fluid;
       return (
-        <Card className="mt-2 mb-2 p-2">
+        <Card className="">
           <Styled.CardLink to="/about">
-            <i className="fas fa-cloud text-7xl"></i>
+            <i className="fas fa-cloud text-7xl text-secondary-blue pt-4 pb-2"></i>
             <Card.Body>
-              <Card.Title>Cloud Services</Card.Title>
+              <Card.Title className="text-primary-blue">Cloud Services</Card.Title>
               <Card.Subtitle>Forwardslash Development Cloud Services</Card.Subtitle>
               <Card.Text>
                 AWS, CloudFront, S3, Amplify, Git Repo, and more service content still needs to be added! It has been

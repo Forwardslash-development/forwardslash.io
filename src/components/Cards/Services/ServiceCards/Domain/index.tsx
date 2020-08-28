@@ -24,11 +24,11 @@ const DomainCard = ({}) => (
       // Set ImageData.
       const imageData = data.desktop.childImageSharp.fluid;
       return (
-        <Card className="mt-2 mb-2 p-2">
+        <Card className="">
           <Styled.CardLink to="/">
-            <i className="fas fa-laptop-code text-7xl"></i>
+            <i className="fas fa-laptop-code text-7xl text-secondary-blue pt-4 pb-2"></i>
             <Card.Body>
-              <Card.Title>Domain Services</Card.Title>
+              <Card.Title className="text-primary-blue">Domain Services</Card.Title>
               <Card.Subtitle>Forwardslash Development Domain Services</Card.Subtitle>
               <Card.Text>
                 Progressive web applications, Content management systems, Devop, CLI, Deployment. All this writing on

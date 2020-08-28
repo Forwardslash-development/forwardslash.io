@@ -24,11 +24,11 @@ const AboutCard = ({}) => (
       // Set ImageData.
       const imageData = data.desktop.childImageSharp.fluid;
       return (
-        <Card className="mt-2 mb-2 p-2">
+        <Card className="">
           <Styled.CardLink to="/about">
-            <Card.Body className="pt-4 text-center">
-              <i className="fas fa-info-circle text-7xl text-secondary-blue"></i>
-              <Card.Title className="pt-4 text-primary-blue">About</Card.Title>
+            <Card.Body className="text-center">
+              <i className="fas fa-info-circle text-7xl text-secondary-blue pt-4 pb-2"></i>
+              <Card.Title className="text-primary-blue">About</Card.Title>
               <Card.Text>
                 About Forwardslash Development, history, ethics, goals, all that stuff has been put to a task card and
                 is waiting to be moved to the "in progress" column. Stay tuned!

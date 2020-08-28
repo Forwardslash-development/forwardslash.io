@@ -27,8 +27,8 @@ const ServicesPage: React.FC = () => {
           put to a task card and sits in the To-Do column for development, and is waiting to be moved to the "in
           progress" column. Stay tuned!
         </p>
-        <CardGroup className="p-2">
-          <CardDeck className="">
+        <CardGroup className="m-4">
+          <CardDeck className="text-center">
             <DomainCard />
             <CloudCard />
             <MarketechCard />
