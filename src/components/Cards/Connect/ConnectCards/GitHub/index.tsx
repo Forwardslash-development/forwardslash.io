@@ -5,15 +5,14 @@ import Img from 'gatsby-image';
 import * as Styled from './styles';
 
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 
-const AboutCard = ({}) => (
+const GitHubCard = ({}) => (
   <StaticQuery
     query={graphql`
       query {
         desktop: file(relativePath: { eq: "about-forwardslash.png" }) {
           childImageSharp {
-            fluid(quality: 90, maxWidth: 200) {
+            fluid(quality: 90, maxWidth: 400) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }
@@ -25,14 +24,12 @@ const AboutCard = ({}) => (
       const imageData = data.desktop.childImageSharp.fluid;
       return (
         <Card className="">
-          <Styled.CardLink to="/about">
-            <Card.Body className="text-center">
-              <i className="fas fa-info-circle text-7xl text-secondary-blue pt-4 pb-2"></i>
-              <Card.Title className="text-primary-blue">About</Card.Title>
-              <Card.Text>
-                About Forwardslash Development, history, ethics, goals, all that stuff has been put to a task card and
-                is waiting to be moved to the "in progress" column. Stay tuned!
-              </Card.Text>
+          <Styled.CardLink to="/">
+            <i className="fab fa-github text-7xl text-secondary-blue pt-4 pb-2"></i>
+            <Card.Body>
+              <Card.Title className="text-primary-blue">GitHub</Card.Title>
+              <Card.Subtitle>GitHub Forwardslash Development</Card.Subtitle>
+              <Card.Text>Connect with Forwardslash Development on GitHub</Card.Text>
             </Card.Body>
           </Styled.CardLink>
         </Card>
@@ -41,4 +38,4 @@ const AboutCard = ({}) => (
   />
 );
 
-export default AboutCard;
+export default GitHubCard;

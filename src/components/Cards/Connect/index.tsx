@@ -24,17 +24,16 @@ const ConnectCard = ({}) => (
       // Set ImageData.
       const imageData = data.desktop.childImageSharp.fluid;
       return (
-        <Card className="mt-2 mb-2 p-2">
-          <Link to="/connect">
-            <Img fluid={imageData} />
-            <Card.Body>
-              <Card.Title>Connect</Card.Title>
+        <Card className="">
+          <Styled.CardLink to="/connect">
+            <Card.Body className="text-center">
+              <i className="fas fa-network-wired text-7xl text-secondary-blue pt-2 pb-4"></i>
+              <Card.Title className="text-primary-blue">Connect with Us</Card.Title>
               <Card.Text>
-                How to connect with Connect with Forwardslash Development. Slack channel, Discord, Twitter, Github,
-                Email, contact form.
+                Connect with Forwardslash Development on: Slack, Discord, Twitter, Github, Email, contact form.
               </Card.Text>
             </Card.Body>
-          </Link>
+          </Styled.CardLink>
         </Card>
       );
     }}
