@@ -28,7 +28,6 @@ const MarketechCard = ({}) => (
             <i className="fas fa-bullseye text-7xl text-secondary-blue pt-4 pb-2"></i>
             <Card.Body>
               <Card.Title className="text-primary-blue">Marketing Technology Services</Card.Title>
-              <Card.Subtitle>Forwardslash Development Marketech Services.</Card.Subtitle>
               <Card.Text>
                 Marketech Services. Progressive web applications, Branding, Web Analytics, Content Mesh, writing on our
                 Marketech services still needs to be developed! It has been put to a task card and is waiting to be
