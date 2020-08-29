@@ -27,8 +27,8 @@ const HistoryCard = ({}) => (
           <Styled.CardLink to="/">
             <Card.Body className="text-center">
               <i className="fas fa-monument text-7xl text-secondary-blue pt-2 pb-4"></i>
-              <Card.Title className="text-primary-blue">History of Forwardslash Development</Card.Title>
-              <Card.Text>The founding story, chapter one to modern day</Card.Text>
+              <Card.Title className="text-primary-blue">History</Card.Title>
+              <Card.Text>The founding story of Forwardslash Development, chapter one to modern day</Card.Text>
             </Card.Body>
           </Styled.CardLink>
         </Card>

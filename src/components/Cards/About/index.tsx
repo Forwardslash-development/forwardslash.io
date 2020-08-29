@@ -29,10 +29,7 @@ const AboutCard = ({}) => (
             <Card.Body className="text-center">
               <i className="fas fa-info-circle text-7xl text-secondary-blue pt-4 pb-2"></i>
               <Card.Title className="text-primary-blue">About</Card.Title>
-              <Card.Text>
-                About Forwardslash Development, history, ethics, goals, all that stuff has been put to a task card and
-                is waiting to be moved to the "in progress" column. Stay tuned!
-              </Card.Text>
+              <Card.Text>About Forwardslash Development, history, work, ethics, goals.</Card.Text>
             </Card.Body>
           </Styled.CardLink>
         </Card>
