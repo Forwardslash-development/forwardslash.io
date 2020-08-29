@@ -29,7 +29,6 @@ const DomainCard = ({}) => (
             <i className="fas fa-laptop-code text-7xl text-secondary-blue pt-4 pb-2"></i>
             <Card.Body>
               <Card.Title className="text-primary-blue">Domain Services</Card.Title>
-              <Card.Subtitle>Forwardslash Development Domain Services</Card.Subtitle>
               <Card.Text>
                 Progressive web applications, Content management systems, Devop, CLI, Deployment. All this writing on
                 our domain services still needs to be developed! It has been put to a task card and is waiting to be
