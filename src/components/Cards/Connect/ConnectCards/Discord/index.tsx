@@ -27,8 +27,7 @@ const DiscordCard = ({}) => (
           <Styled.CardLink to="/">
             <i className="fab fa-discord text-7xl text-secondary-blue pt-4 pb-2"></i>
             <Card.Body>
-              <Card.Title className="text-primary-blue">Discord</Card.Title>
-              <Card.Subtitle>Discord Forwardslash Development</Card.Subtitle>
+              <Card.Title className="text-primary-blue pb-4">Discord</Card.Title>
               <Card.Text>Connect with Forwardslash Development on Discord</Card.Text>
             </Card.Body>
           </Styled.CardLink>

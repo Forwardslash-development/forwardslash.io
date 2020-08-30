@@ -28,12 +28,8 @@ const DomainCard = ({}) => (
           <Styled.CardLink to="/">
             <i className="fas fa-laptop-code text-7xl text-secondary-blue pt-4 pb-2"></i>
             <Card.Body>
-              <Card.Title className="text-primary-blue">Domain Services</Card.Title>
-              <Card.Text>
-                Progressive web applications, Content management systems, Devop, CLI, Deployment. All this writing on
-                our domain services still needs to be developed! It has been put to a task card and is waiting to be
-                moved to the "in progress" column. Stay tuned!
-              </Card.Text>
+              <Card.Title className="text-primary-blue pb-4">Domain Services</Card.Title>
+              <Card.Text>Design Systems, Progressive Web Applications, Content Management Systems.</Card.Text>
             </Card.Body>
           </Styled.CardLink>
         </Card>
