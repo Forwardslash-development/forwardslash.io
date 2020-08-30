@@ -28,7 +28,7 @@ const BlogCard = ({}) => (
           <Styled.CardLink to="/blog">
             <Card.Body className="text-center">
               <i className="fas fa-user-astronaut text-7xl text-secondary-blue pt-4 pb-2"></i>
-              <Card.Title className="text-primary-blue">Blog</Card.Title>
+              <Card.Title className="text-primary-blue pb-4">Blog</Card.Title>
               <Card.Text>
                 The Forwardslash Development blog where we write, when we write about progressive web application
                 development.

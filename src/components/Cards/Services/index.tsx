@@ -28,7 +28,7 @@ const ServicesCard = ({}) => (
           <Styled.CardLink to="/services">
             <Card.Body className="text-center">
               <i className="fab fa-dev text-7xl text-secondary-blue pt-4 pb-2"></i>
-              <Card.Title className="text-primary-blue">Services</Card.Title>
+              <Card.Title className="text-primary-blue pb-4">Services</Card.Title>
               <Card.Text>
                 Forwardslash Development provides progressive web application and API development services.
               </Card.Text>
