@@ -27,8 +27,7 @@ const GitHubCard = ({}) => (
           <Styled.CardLink to="/">
             <i className="fab fa-github text-7xl text-secondary-blue pt-4 pb-2"></i>
             <Card.Body>
-              <Card.Title className="text-primary-blue">GitHub</Card.Title>
-              <Card.Subtitle>GitHub Forwardslash Development</Card.Subtitle>
+              <Card.Title className="text-primary-blue pb-4">GitHub</Card.Title>
               <Card.Text>Connect with Forwardslash Development on GitHub</Card.Text>
             </Card.Body>
           </Styled.CardLink>

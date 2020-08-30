@@ -27,8 +27,8 @@ const ConnectCard = ({}) => (
         <Card className="">
           <Styled.CardLink to="/connect">
             <Card.Body className="text-center">
-              <i className="fas fa-network-wired text-7xl text-secondary-blue pt-2 pb-4"></i>
-              <Card.Title className="text-primary-blue">Connect with Us</Card.Title>
+              <i className="fas fa-network-wired text-7xl text-secondary-blue pt-4 pb-2"></i>
+              <Card.Title className="text-primary-blue pb-4">Connect with Us</Card.Title>
               <Card.Text>
                 Connect with Forwardslash Development on: Slack, Discord, Twitter, Github, Email, contact form.
               </Card.Text>
