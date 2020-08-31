@@ -26,7 +26,7 @@ const ServiceHero = ({}) => (
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
-            minHeight: '70vh',
+            minHeight: '33vh',
             width: '100%',
             zIndex: -1
           }}
