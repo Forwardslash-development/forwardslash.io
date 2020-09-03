@@ -16,7 +16,12 @@ const ConnectForm = () => (
     <Form.Group>
       <Row>
         <Col>
-          <Form.Control as="textarea" rows="3" placeholder="Connet with Forwardslash Development by message" required />
+          <Form.Control
+            as="textarea"
+            rows="3"
+            placeholder="Connect with Forwardslash Development by message"
+            required
+          />
         </Col>
       </Row>
     </Form.Group>
