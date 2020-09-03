@@ -7,7 +7,7 @@ export const Logo = styled(Link)`
 `;
 
 export const Text = styled.h1`
-  ${tw`text-3xl pt-4`};
+  ${tw`text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl pt-4`};
 `;
 
 export const Image = styled.figure`
