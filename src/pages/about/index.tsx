@@ -7,6 +7,7 @@ import CardDeck from 'react-bootstrap/CardDeck';
 import CardGroup from 'react-bootstrap/CardGroup';
 import HistoryCard from 'components/Cards/About/AboutCards/History';
 import WorkCard from 'components/Cards/About/AboutCards/Work';
+import ValuesCard from 'components/Cards/About/AboutCards/Values';
 import ConnectCard from 'components/Cards/Connect';
 
 const AboutPage: React.FC = () => {
@@ -18,6 +19,7 @@ const AboutPage: React.FC = () => {
         <CardDeck className="text-center">
           <HistoryCard />
           <WorkCard />
+          <ValuesCard />
           <ConnectCard />
         </CardDeck>
       </CardGroup>

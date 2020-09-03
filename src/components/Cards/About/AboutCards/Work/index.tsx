@@ -24,7 +24,7 @@ const WorkCard = ({}) => (
       const imageData = data.desktop.childImageSharp.fluid;
       return (
         <Card className="">
-          <Styled.CardLink to="/">
+          <Styled.CardLink to="/about/work/">
             <Card.Body className="text-center">
               <i className="fas fa-wrench text-7xl text-secondary-blue pt-2 pb-4"></i>
               <Card.Title className="text-primary-blue pb-4">The Work</Card.Title>

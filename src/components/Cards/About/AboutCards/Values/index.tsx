@@ -6,7 +6,7 @@ import * as Styled from './styles';
 
 import Card from 'react-bootstrap/Card';
 
-const HistoryCard = ({}) => (
+const ValuesCard = ({}) => (
   <StaticQuery
     query={graphql`
       query {
@@ -24,11 +24,11 @@ const HistoryCard = ({}) => (
       const imageData = data.desktop.childImageSharp.fluid;
       return (
         <Card className="">
-          <Styled.CardLink to="/about/history">
+          <Styled.CardLink to="/about/values">
             <Card.Body className="text-center">
-              <i className="fas fa-monument text-7xl text-secondary-blue pt-2 pb-4"></i>
-              <Card.Title className="text-primary-blue pb-4">History</Card.Title>
-              <Card.Text>The founding story of Forwardslash Development, chapter one to modern day</Card.Text>
+              <i className="fas fa-balance-scale text-7xl text-secondary-blue pt-2 pb-4"></i>
+              <Card.Title className="text-primary-blue pb-4">Values</Card.Title>
+              <Card.Text>Professional and business values stated.</Card.Text>
             </Card.Body>
           </Styled.CardLink>
         </Card>
@@ -37,4 +37,4 @@ const HistoryCard = ({}) => (
   />
 );
 
-export default HistoryCard;
+export default ValuesCard;
