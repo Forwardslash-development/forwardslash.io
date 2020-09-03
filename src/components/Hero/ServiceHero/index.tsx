@@ -33,7 +33,7 @@ const ServiceHero = ({}) => (
         >
           <div className="bg-primary-blue bg-opacity-25 m-10 p-3 rounded-lg shadow-2xl">
             <Styled.Title>Modern Application Development</Styled.Title>
-            <Styled.SubTitle>Progressive web solutions</Styled.SubTitle>
+            <Styled.SubTitle>Progressive web services</Styled.SubTitle>
           </div>
         </BackgroundImage>
       );

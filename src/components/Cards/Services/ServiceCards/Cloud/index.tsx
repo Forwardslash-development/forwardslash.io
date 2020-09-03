@@ -24,7 +24,7 @@ const CloudCard = ({}) => (
       const imageData = data.desktop.childImageSharp.fluid;
       return (
         <Card className="">
-          <Styled.CardLink to="/about">
+          <Styled.CardLink to="/services/cloud">
             <i className="fas fa-cloud text-7xl text-secondary-blue pt-4 pb-2"></i>
             <Card.Body>
               <Card.Title className="text-primary-blue pb-4">Cloud Services</Card.Title>

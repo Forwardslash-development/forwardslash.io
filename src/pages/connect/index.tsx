@@ -3,7 +3,6 @@ import React from 'react';
 import Layout from 'components/Layout';
 import SEO from 'components/SEO';
 import ConnectHero from 'components/Hero/ConnectHero';
-import ConnectCard from 'components/Cards/Connect';
 import CardDeck from 'react-bootstrap/CardDeck';
 import CardGroup from 'react-bootstrap/CardGroup';
 import SlackCard from '../../components/Cards/Connect/ConnectCards/Slack';
