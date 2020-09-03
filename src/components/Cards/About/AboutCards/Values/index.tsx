@@ -6,11 +6,11 @@ import * as Styled from './styles';
 
 import Card from 'react-bootstrap/Card';
 
-const EmailCard = ({}) => (
+const ValuesCard = ({}) => (
   <StaticQuery
     query={graphql`
       query {
-        desktop: file(relativePath: { eq: "about-forwardslash.png" }) {
+        desktop: file(relativePath: { eq: "connect-card-image.png" }) {
           childImageSharp {
             fluid(quality: 90, maxWidth: 400) {
               ...GatsbyImageSharpFluid_withWebp
@@ -24,21 +24,17 @@ const EmailCard = ({}) => (
       const imageData = data.desktop.childImageSharp.fluid;
       return (
         <Card className="">
-          <a
-            href="mailto: jv@forwardslash-development.io"
-            className="no-underline hover:no-underline"
-            alt="Mail to jv at Forwardslash Development"
-          >
-            <i className="fas fa-at text-7xl text-secondary-blue pt-4 pb-2"></i>
-            <Card.Body>
-              <Card.Title className="text-primary-blue pb-4">Email</Card.Title>
-              <Card.Text>Connect with Forwardslash Development by email</Card.Text>
+          <Styled.CardLink to="/about/values">
+            <Card.Body className="text-center">
+              <i className="fas fa-balance-scale text-7xl text-secondary-blue pt-2 pb-4"></i>
+              <Card.Title className="text-primary-blue pb-4">Values</Card.Title>
+              <Card.Text>Professional and business values stated.</Card.Text>
             </Card.Body>
-          </a>
+          </Styled.CardLink>
         </Card>
       );
     }}
   />
 );
 
-export default EmailCard;
+export default ValuesCard;

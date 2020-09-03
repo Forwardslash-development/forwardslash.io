@@ -24,7 +24,7 @@ const HistoryCard = ({}) => (
       const imageData = data.desktop.childImageSharp.fluid;
       return (
         <Card className="">
-          <Styled.CardLink to="/">
+          <Styled.CardLink to="/about/history">
             <Card.Body className="text-center">
               <i className="fas fa-monument text-7xl text-secondary-blue pt-2 pb-4"></i>
               <Card.Title className="text-primary-blue pb-4">History</Card.Title>

@@ -25,7 +25,7 @@ const DomainCard = ({}) => (
       const imageData = data.desktop.childImageSharp.fluid;
       return (
         <Card className="">
-          <Styled.CardLink to="/">
+          <Styled.CardLink to="/services/domain">
             <i className="fas fa-laptop-code text-7xl text-secondary-blue pt-4 pb-2"></i>
             <Card.Body>
               <Card.Title className="text-primary-blue pb-4">Domain Services</Card.Title>
