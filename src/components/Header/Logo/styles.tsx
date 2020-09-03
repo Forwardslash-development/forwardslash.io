@@ -7,11 +7,11 @@ export const Logo = styled(Link)`
 `;
 
 export const Text = styled.h1`
-  ${tw`text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl pt-4`};
+  ${tw`pl-2 pt-2 mobileS:text-lg mobileM:text-lg mobileL:text-lg sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl `};
 `;
 
 export const Image = styled.figure`
-  ${tw` flex flex-col w-10 h-auto pt-3 mr-1`};
+  ${tw`mobileS:w-4 mobileM:w-8 sm:w-10 md:w-12 lg:w-14 xl:w-16`};
 
   img {
     ${tw``};
