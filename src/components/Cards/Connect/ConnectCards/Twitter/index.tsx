@@ -24,11 +24,11 @@ const TwitterCard = ({}) => (
       const imageData = data.desktop.childImageSharp.fluid;
       return (
         <Card className="">
-          <Styled.CardLink to="/">
+          <Styled.CardLink to="https://twitter.com/development_io" target="_blank">
             <i className="fab fa-twitter text-7xl text-secondary-blue pt-4 pb-2"></i>
             <Card.Body>
               <Card.Title className="text-primary-blue pb-4">Twitter</Card.Title>
-              <Card.Text>Connect with Forwardslash Development on Twitter at</Card.Text>
+              <Card.Text>Connect with Forwardslash Development on Twitter @development_io</Card.Text>
             </Card.Body>
           </Styled.CardLink>
         </Card>
