@@ -24,13 +24,17 @@ const EmailCard = ({}) => (
       const imageData = data.desktop.childImageSharp.fluid;
       return (
         <Card className="">
-          <Styled.CardLink to="/">
+          <a
+            href="mailto: jv@forwardslash-development.io"
+            className="no-underline hover:no-underline"
+            alt="Mail to jv at Forwardslash Development"
+          >
             <i className="fas fa-at text-7xl text-secondary-blue pt-4 pb-2"></i>
             <Card.Body>
               <Card.Title className="text-primary-blue pb-4">Email</Card.Title>
-              <Card.Text>Connect with Forwardslash Development on email @</Card.Text>
+              <Card.Text>Connect with Forwardslash Development by email</Card.Text>
             </Card.Body>
-          </Styled.CardLink>
+          </a>
         </Card>
       );
     }}
