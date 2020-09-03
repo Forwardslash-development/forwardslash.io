@@ -26,12 +26,12 @@ export const ThemeSwitchWrapper = styled.div`
 `;
 
 export const Brand = styled.div`
-  ${tw`flex float-left hover:no-underline`};
+  ${tw`flex items-center justify-center w-full hover:no-underline`};
 `;
 
 export const Copyright = styled.div`
   ${tw`flex items-center justify-center w-full`};
 `;
 export const Address = styled.div`
-  ${tw`flex float-right mr-2`};
+  ${tw`flex items-center justify-center w-full mr-2`};
 `;
