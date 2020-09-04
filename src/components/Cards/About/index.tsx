@@ -29,7 +29,7 @@ const AboutCard = ({}) => (
             <Card.Body className="text-center">
               <i className="fas fa-info-circle text-7xl text-secondary-blue pt-4 pb-2"></i>
               <Card.Title className="text-primary-blue pb-4">About</Card.Title>
-              <Card.Text>About Forwardslash Development, history, work, ethics, goals.</Card.Text>
+              <Card.Text>About Forwardslash Development, history, work, values.</Card.Text>
             </Card.Body>
           </Styled.CardLink>
         </Card>
